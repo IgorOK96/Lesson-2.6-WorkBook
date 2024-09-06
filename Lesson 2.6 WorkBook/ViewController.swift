@@ -7,13 +7,39 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
 
+    @IBOutlet var minValueLabel: UILabel!
+    @IBOutlet var maxValueLabel: UILabel!
+    @IBOutlet var randomValueLabel: UILabel!
+    @IBOutlet var getRandomValueButton: UIButton!
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        getRandomValueButton.layer.cornerRadius = 10
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let settingVC = segue.destination as? SettingsViewController
+        settingVC?.minimumValue = minValueLabel.text
+        settingVC?.maximumValue = maxValueLabel.text
     }
 
+    func getRandomValueButtonAction() {
+        let minValue = Int(minValueLabel.text ?? "") ?? 0
+        let maxValue = Int(maxValueLabel.text ?? "") ?? 100
+        
+        randomValueLabel.text = Int.random(in: minValue...maxValue).formatted()
 
+    }
+    
+    @IBAction func unwind(for segue: UIStoryboardSegue) {
+        let settingsVC = segue.source as? SettingsViewController
+        minValueLabel.text = settingsVC?.minValueTF.text
+        maxValueLabel.text = settingsVC?.maxValueTF.text
+
+    }
 }
 
