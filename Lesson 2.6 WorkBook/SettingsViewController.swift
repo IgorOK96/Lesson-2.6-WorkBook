@@ -17,13 +17,11 @@ final class SettingsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-    }
-    
-    @IBAction func cancelButtonAction() {
-        dismiss(animated: true)
         minValueTF.text = minimumValue
         maxValueTF.text = maximumValue
     }
     
+    @IBAction func cancelButtonAction() {
+        dismiss(animated: true)
+    }
 }

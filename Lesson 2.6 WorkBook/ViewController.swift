@@ -27,14 +27,13 @@ final class ViewController: UIViewController {
         settingVC?.maximumValue = maxValueLabel.text
     }
 
-    func getRandomValueButtonAction() {
-        let minValue = Int(minValueLabel.text ?? "") ?? 0
-        let maxValue = Int(maxValueLabel.text ?? "") ?? 100
+    @IBAction func getRandomValueButtonAction(_ sender: UIButton) {
+        let minNumber = Int(minValueLabel.text ?? "") ?? 0
+        let maxNumber = Int(maxValueLabel.text ?? "") ?? 100
         
-        randomValueLabel.text = Int.random(in: minValue...maxValue).formatted()
-
+        randomValueLabel.text = Int.random(in: minNumber...maxNumber).formatted()
     }
-    
+        
     @IBAction func unwind(for segue: UIStoryboardSegue) {
         let settingsVC = segue.source as? SettingsViewController
         minValueLabel.text = settingsVC?.minValueTF.text

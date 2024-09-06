@@ -11,7 +11,7 @@
         <!--Random Number-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lesson_2_6_WorkBook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lesson_2_6_WorkBook___RandomNumber" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -25,6 +25,9 @@
                                 <state key="normal" title="Get Result">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="getRandomValueButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gmI-SX-zcx"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="5YL-Tq-DTr">
                                 <rect key="frame" x="33" y="174.33333333333334" width="327" height="63.666666666666657"/>
@@ -96,7 +99,7 @@
         <!--Settings View Controller-->
         <scene sceneID="8rk-qo-kxF">
             <objects>
-                <viewController id="kdT-v7-eOT" customClass="SettingsViewController" customModule="Lesson_2_6_WorkBook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="kdT-v7-eOT" customClass="SettingsViewController" customModule="Lesson_2_6_WorkBook___RandomNumber" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xST-tj-Rbh">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
