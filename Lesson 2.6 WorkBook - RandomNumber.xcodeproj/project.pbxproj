@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9A7226A12C8ADC3600BA2D84 /* Lesson 2.6 WorkBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 2.6 WorkBook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7226A12C8ADC3600BA2D84 /* Lesson 2.6 WorkBook - RandomNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 2.6 WorkBook - RandomNumber.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A7226A42C8ADC3600BA2D84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A7226A62C8ADC3600BA2D84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9A7226A82C8ADC3600BA2D84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		9A7226A22C8ADC3600BA2D84 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A7226A12C8ADC3600BA2D84 /* Lesson 2.6 WorkBook.app */,
+				9A7226A12C8ADC3600BA2D84 /* Lesson 2.6 WorkBook - RandomNumber.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A7226A02C8ADC3600BA2D84 /* Lesson 2.6 WorkBook */ = {
+		9A7226A02C8ADC3600BA2D84 /* Lesson 2.6 WorkBook - RandomNumber */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A7226B52C8ADC3700BA2D84 /* Build configuration list for PBXNativeTarget "Lesson 2.6 WorkBook" */;
+			buildConfigurationList = 9A7226B52C8ADC3700BA2D84 /* Build configuration list for PBXNativeTarget "Lesson 2.6 WorkBook - RandomNumber" */;
 			buildPhases = (
 				9A72269D2C8ADC3600BA2D84 /* Sources */,
 				9A72269E2C8ADC3600BA2D84 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = "Lesson 2.6 WorkBook";
+			name = "Lesson 2.6 WorkBook - RandomNumber";
 			productName = "Lesson 2.6 WorkBook";
-			productReference = 9A7226A12C8ADC3600BA2D84 /* Lesson 2.6 WorkBook.app */;
+			productReference = 9A7226A12C8ADC3600BA2D84 /* Lesson 2.6 WorkBook - RandomNumber.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9A72269C2C8ADC3600BA2D84 /* Build configuration list for PBXProject "Lesson 2.6 WorkBook" */;
+			buildConfigurationList = 9A72269C2C8ADC3600BA2D84 /* Build configuration list for PBXProject "Lesson 2.6 WorkBook - RandomNumber" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A7226A02C8ADC3600BA2D84 /* Lesson 2.6 WorkBook */,
+				9A7226A02C8ADC3600BA2D84 /* Lesson 2.6 WorkBook - RandomNumber */,
 			);
 		};
 /* End PBXProject section */
@@ -354,7 +354,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A72269C2C8ADC3600BA2D84 /* Build configuration list for PBXProject "Lesson 2.6 WorkBook" */ = {
+		9A72269C2C8ADC3600BA2D84 /* Build configuration list for PBXProject "Lesson 2.6 WorkBook - RandomNumber" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A7226B32C8ADC3700BA2D84 /* Debug */,
@@ -363,7 +363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A7226B52C8ADC3700BA2D84 /* Build configuration list for PBXNativeTarget "Lesson 2.6 WorkBook" */ = {
+		9A7226B52C8ADC3700BA2D84 /* Build configuration list for PBXNativeTarget "Lesson 2.6 WorkBook - RandomNumber" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A7226B62C8ADC3700BA2D84 /* Debug */,
